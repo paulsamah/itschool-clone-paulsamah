@@ -1,0 +1,67 @@
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+}
+
+nav .navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+.itschool-my-bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.it-school-bg-orange {
+  background-color: var(--text-secondary);
+}
+
+.it-school-bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.itschool-text-primary {
+  color: var(--text-secondary);
+}
+
+nav .navbar-nav .nav-item .nav-link,
+nav .navbar-nav .dropdown-item {
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+nav .navbar-nav .nav-item .nav-link:hover,
+nav .navbar-nav .dropdown-item:hover {
+  color: var(--text-secondary);
+  background-color: transparent;
+}
+nav .navbar-nav .dropdown-menu {
+  background-color: var(--bg-dark);
+}
+
+@media screen and (max-width: 768px) {
+  nav .navbar-collaps {
+    background-color: var(--bg-dark);
+  }
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+.itschool-btn-succes {
+  background-color: var(--button-color);
+  border: 3px solid var(--button-color);
+  transition: all 0.25s ease-in-out;
+  font-size: 10px;
+}
+.itschool-btn-succes:hover {
+  background-color: transparent;
+  transition: all 0.25s ease-in-out;
+}

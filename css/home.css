@@ -1,0 +1,25 @@
+.welcome-banner {
+  height: 100vh;
+}
+.welcome-banner-certificate img {
+  height: 24px;
+  width: auto;
+}
+.courses-calendar-card-icon-text {
+  line-height: 15px;
+  font-size: 12px;
+}
+.courses-calendar .card hr {
+  height: 5px;
+  background-color: var(--button-color);
+  border-radius: 3px;
+  opacity: 1;
+}
+.filter-grayscale {
+  filter: grayscale(100%);
+}
+.partner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
